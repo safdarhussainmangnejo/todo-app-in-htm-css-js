@@ -10,6 +10,10 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
         integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <script type = "text/javascript" src="newElement.js">
+        
+    </script>
 
 
 </head>
@@ -24,14 +28,14 @@
         </div>
 
         <div class="fields">
-            <input type="Text" placeholder="New Task">
-            <button class="add-button">Add</button>
+            <input type="Text" id="taskInput" placeholder="New Task">
+            <button onClick="newElement()" class="add-button">Add</button>
         </div>
     </div>
 
     <!-- Task List Section -->
     <div id="list">
-        <ol>
+        <ol id="taskOL">
             <li>THIS IS OUR ASSIGNMENT FOR TO DO LIST</li>
             <li>THIS IS OUR ASSIGNMENT FOR TO DO LIST</li>
             <li>THIS IS OUR ASSIGNMENT FOR TO DO LIST</li>
@@ -43,9 +47,6 @@
 
 
     </div>
-
-
-
 
 </body>
 
