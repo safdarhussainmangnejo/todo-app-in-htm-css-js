@@ -27,7 +27,7 @@ body {
 }
 
 
-/* Input field */
+/* Task Input field */
 
 .fields input[type="text"] {
     font-family: 'Times New Roman', Times, serif;
@@ -61,7 +61,7 @@ body {
     color: white;
 }
 
-
+    /* Task List Section */
 #list {
     height: auto;
     width: 800px;
@@ -71,12 +71,14 @@ body {
     
 }
 
+    /* Task List */
 ol {
     margin: 0;
     padding: 0;
     list-style-position: inside
 }
 
+/* task list css */
 ol li {
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     padding: 10px 20px;
@@ -90,14 +92,9 @@ ol li {
     /* list-style-type: none; */
 }
 
+/* Hover effect on task */
 ol li:hover {
     background-color: rgb(200, 191, 191);
     color: black;
     padding: 10px 35px;
 }
-
-ul li.checked {
-    background: #888;
-    color: #fff;
-    text-decoration: line-through;
-  }
