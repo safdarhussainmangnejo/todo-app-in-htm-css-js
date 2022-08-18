@@ -1,0 +1,103 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    /* background-color: black; */
+}
+
+#container {
+    width: 800px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: black;
+    padding: 30px 0px;
+}
+
+/* Logo */
+
+#header .logo {
+    font-size: 70px;
+    color: white;
+}
+
+/* To do list heading */
+#header h1 {
+    margin-top: 8px;
+    font-size: 30px;
+    color: white;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+
+/* Input field */
+
+.fields input[type="text"] {
+    font-family: 'Times New Roman', Times, serif;
+    width: 85%;
+    border: none;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-indent: 20px;
+    font-size: 18px;
+    border-radius: 7px;
+}
+
+/* add button */
+
+.add-button {
+    margin-left: 5px;
+    width: 9%;
+    /* display: block; */
+    border: 1px;
+    background-color: rgb(251, 163, 0);
+    color: black;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px 5px;
+    cursor: pointer;
+}
+
+.add-button:hover {
+    color: white;
+}
+
+
+#list {
+    height: auto;
+    width: 800px;
+    margin: 0 auto;
+    text-align: left;
+    border-top: 2px solid orange;
+    
+}
+
+ol {
+    margin: 0;
+    padding: 0;
+    list-style-position: inside
+}
+
+ol li {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    position: relative;
+    padding: 10px 10px 10px 20px;
+    background-color: black;  
+    color: white;  
+    transition: 0.1s;
+    /* list-style-type: none; */
+}
+
+ol li:hover {
+    background-color: rgb(200, 191, 191);
+    color: black;
+    padding: 10px 35px;
+}
+
+ul li.checked {
+    background: #888;
+    color: #fff;
+    text-decoration: line-through;
+  }
